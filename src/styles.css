@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+
+}
+html {
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 15px;
+}
+H1 {
+    font-size: 1.4em;
+    text-align: center;
+    font-family: Arial;
+    padding: 15px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+.container {max-width: 1024px;}
