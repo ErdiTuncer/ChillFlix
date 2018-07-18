@@ -1,2 +1,11 @@
 ::ng-deep .ytp-watermark {display: none; bottom:1800px !important;}
 .ytp-watermark {display: none; bottom: 1800px !important;}
+
+.video {text-align: center;}
+.btn a{
+    width: 150px;
+    display: inline-block;
+}
+a:hover {
+    background-color: #5b80b2;
+}

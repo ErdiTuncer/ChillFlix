@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <body>
-
-<h1>ChillFix</h1>
-
-<app-video-player></app-video-player>
-
+    <div class="header">
+        <h1>ChillFlix</h1>
+    </div>
+    <div class="container">
+        <div class="row flex-xl-nowrap">
+            <div class="col-12 col-md-2 col-xl-2 bd-sidebar"> <!-- MENU--> </div>
+            <div class="col-12 col-md-8 col-xl-8 bd-content">
+                <app-video-player></app-video-player>
+            </div>
+            <div class="col-12">
+                <app-play-list></app-play-list>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

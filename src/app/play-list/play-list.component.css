@@ -1,0 +1,55 @@
+ul{
+    text-align: center;
+}
+li {
+    border: solid 2px #000;
+    float: left;
+    display: inline-block;
+    width: 242px;
+    height: 138px;
+    margin: 3px;
+
+}
+li a{
+    display: block;
+}
+li img {
+    width: 242px;
+    height: 138px;
+}
+.video1 {
+    background-image: url("https://i.ytimg.com/vi/cSp1dM2Vj48/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA83-aHVqiWncWOeaMtMTu8RL6msA");
+}
+.video2 {
+    background-image: url("https://i.ytimg.com/vi/7-bZLM3I-C0/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAfCk3EzBhJxdteA5njPR84YIwdbg");
+}
+.video3 {
+    background-image: url("https://i.ytimg.com/vi/tJfDBSWYqU8/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCLZrOzDIrXgbRUfYv5JmEuckwIhQ");
+}
+.video4 {
+    background-image: url("https://i.ytimg.com/vi/WajLubtniEA/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAQqOtjd_3r2AQVILFy-4JsmOP5Iw");
+}
+.video5 {
+    background-image: url("https://i.ytimg.com/vi/0pnGQf2rTOs/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAgl0hwmFXYKBppHH-Z7o7v-mB6Kg");
+}
+.video6 {
+    background-image: url("https://i.ytimg.com/vi/nJ74sqozkxc/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAPJxCj0pM3m8aQhTIQjyUq9PGfqw");
+}
+.video7 {
+    background-image: url("https://i.ytimg.com/vi/QY4DhofQ6p8/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB694_AQqidBIzCMuS2PjgjhYKWSw");
+}
+.video8 {
+    background-image: url("https://i.ytimg.com/vi/FrXPIZN2ehY/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCZ7ZnyQyciitFaOyxI8qBCl3pMVg");
+}
+.video9 {
+    background-image: url("https://i.ytimg.com/vi/mmZqOKVvWrY/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCK-FMRsaTTFQ6BgqLdbyDLIQXH6g");
+}
+.video10 {
+    background-image: url("https://i.ytimg.com/vi/AcclGFpwVsk/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDbGgZYHFhSDGH7UfywrrPV6txVRw");
+}
+.video11 {
+    background-image: url("https://i.ytimg.com/vi/1sx8J54N-Z8/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCK0XHaXdSP5SsIqzbaBh2fIzhtrw");
+}
+.video12 {
+    background-image: url("https://i.ytimg.com/vi/dZz0axVISj8/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC_rn3BAB1Y2b2_iMDyfGicBGmGGQ");
+}

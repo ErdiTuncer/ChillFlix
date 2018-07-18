@@ -1,10 +1,11 @@
-<youtube-player
+<div class="video">
+    <youtube-player
         [videoId]="id"
         (ready)="savePlayer($event)"
         (change)="onStateChange($event)"
-        [playerVars]="{controls: 0, rel:0, showinfo:0, modestbranding:1}"
-></youtube-player>
+        [playerVars]="{controls: 0, rel:0, showinfo:0, modestbranding:1}"></youtube-player>
 <div (click)="playerButtons">
-  <button class="playerBtn" (click)="playBtn()">Play me</button>
-  <button class="playerBtn" (click)="breakBtn()">Break</button>
+  <div class="btn"><a class="playerBtn" (click)="playBtn()">Play me</a></div>
+  <div class="btn"><a class="playerBtn" (click)="breakBtn()">Break</a></div>
+</div>
 </div>
