@@ -1,0 +1,24 @@
+ul{
+    text-align: center;
+}
+li {
+    border: solid 2px #000;
+    float: left;
+    display: inline-block;
+    width: 242px;
+    height: 138px;
+    margin: 3px;
+
+}
+li a{
+    display: block;
+}
+li img {
+    width: 242px;
+    height: 138px;
+}
+
+img:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {YoutubeResult} from "../../model/youtube-result";
 
 @Component({
   selector: 'app-play-list',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./play-list.component.css']
 })
 export class PlayListComponent implements OnInit {
+
+  @Input() results: YoutubeResult;
 
   constructor() { }
 
