@@ -18,9 +18,9 @@ export class YoutubeAPIService {
   constructor(private httpClient: HttpClient) {
   }
 
-  getData(searchString: string): Observable<YoutubeResult> {
+  getData(searchString: string, maxResults: number = 10): Observable<YoutubeResult> {
       console.log(searchString);
-      const url = `${this.searchUrl}?part=snippet&q=${searchString}&key=${this.apiKey}`;
+      const url = `${this.searchUrl}?part=snippet&q=${searchString}&key=${this.apiKey}&maxResults=${maxResults}`;
       return this.httpClient.get<YoutubeResult>(url);
   }
 }

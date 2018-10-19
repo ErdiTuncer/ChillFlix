@@ -16,6 +16,7 @@ import {
     NG_GAPI_CONFIG,
     GoogleApiConfig
 } from 'ng-gapi';
+import { CategoriesComponent } from './modules/categories/categories.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {
     VideoPlayerComponent,
     SecuredLoginComponent,
     SearchVideoComponent,
-    PlayListComponent
+    PlayListComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,
